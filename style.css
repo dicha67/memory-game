@@ -101,6 +101,8 @@ img {
     padding: 0px 5px 50px 35px;
     margin: 0;
     text-shadow: 4px 3px 7px rgba(94, 119, 115, 0.82);
+    -webkit-transform: rotateY(0deg);
+    -webkit-transition: transform 0.5s linear 0s;
     transform: rotateY(0deg);
     transition: transform 0.5s linear 0s;
     /* transition: property, time-duration, type, delay */
@@ -112,6 +114,8 @@ img {
     width: 150px;
     height: 125px;
     padding: 5px;
+    -webkit-transform: rotateY(180deg);
+    -webkit-transition: transform 0.5s linear 0s;
     transform: rotateY(180deg);
     transition: transform 0.5s linear 0s;
     /* transition: property, time-duration, type, delay */
